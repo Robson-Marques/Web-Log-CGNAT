@@ -32,11 +32,25 @@ Em seguida, execute o seguinte comando:
 
 Acesse o site https://console.cloud.google.com/apis/dashboard
 Entre com sua conta do Google e Crie um novo projeto.
+Comforme o arquivo procedimento-google.pdf na pasta /doc.
 
-Vincule o seu google drive ao GOOGLE-DRIVE-OCAMLFUSE SUBSTITUINDO $SEU_ID E $SEU_SECRET no comando a seguir:
+Vincule o seu google drive ao GOOGLE-DRIVE-OCAMLFUSE SUBSTITUINDO $SEU_ID_CLIENTE E $SUA_CHAVE_SECRETA Copiados do seu projeto conforme PDF segue comando a ser utilizado:
 
-	$ google-drive-ocamlfuse -device -label cgnat -id $SEU_ID -secret $SEU_SECRET
+	$ google-drive-ocamlfuse -device -label cgnat -id $SEU_ID_CLIENTE -secret $SUA_CHAVE_SECRETA
+	
+Aparecerá o seguinte no seu terminal:
 
+	Please, open the following URL in a web browser: https://www.google.com/device
+	and enter the following code: xxxx-xxxx
+
+Copie o "https://www.google.com/device" e cole no navegador do seu computador.
+ele ira pedir para inserir o codigo, copie o codigo "xxxx-xxxx" e cole no navegador.
+ele ira pedir para permitir, você confirma.
+
+Após isso no terminal do seu linux aparecerá o seguinte:
+
+	Access token retrieved correctly.
+	
 Edite o fuse.conf e descomentar a linha com user_allow_other:
 
 	$ sudo nano /etc/fuse.conf
