@@ -393,7 +393,7 @@ Volte para pasta www:
 
 Baixe o arquivo da interface web:
 
-	# wget http://177.84.28.7/cgnat.tar.gz
+	# wget https://flowspec.net.br/logcgnat/cgnat.tar.gz
 
 Descompacte o arquivo:
 
