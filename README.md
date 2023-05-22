@@ -10,5 +10,5 @@ com amarzenamento na nuvem do google drive através do https://github.com/astrad
 
 ============================COMO INSTALAR===============
 
-Procedimento de instalação em /doc/Installation.md.
-ler com atenção.
+    Procedimento de instalação em /doc/Installation.md.
+    ler com atenção.
