@@ -8,3 +8,7 @@ com amarzenamento na nuvem do google drive através do https://github.com/astrad
     INSTALAÇÃO LIMPA DO DEBIAN 11. 
     NÃO UTILIZAR ROOT PARA INSTALAR O GOOGLE-DRIVE. 
 
+============================COMO INSTALAR===============
+
+Procedimento de instalação em /doc/Installation.md.
+ler com atenção.
