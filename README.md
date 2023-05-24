@@ -1,12 +1,12 @@
 # LOG CGNAT
-Sistema de verificação de log cgnat no google drive
+Sistema Web para exibição de log cgnat com amarzenamento direto no google drive
 =======================================================
 Este web sistema tem como objetivo a realização de verifcação de log cgnat.
-atraves dos sistema sylog-ng https://www.syslog-ng.com/
-com amarzenamento na nuvem do google drive através do https://github.com/astrada/google-drive-ocamlfuse
-
-    INSTALAÇÃO LIMPA DO DEBIAN 11. 
-    NÃO UTILIZAR ROOT PARA INSTALAR O GOOGLE-DRIVE. 
+atraves dos sistema:
+sylog-ng https://www.syslog-ng.com/ 
+com amarzenamento na nuvem do google drive,
+através do sistema:
+google-drive-ocamlfuse --> https://github.com/astrada/google-drive-ocamlfuse
     
    COMO INSTALAR.                    
 ========================================================
