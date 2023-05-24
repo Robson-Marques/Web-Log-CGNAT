@@ -12,8 +12,4 @@ com amarzenamento na nuvem do google drive,
 através do sistema:
 
 google-drive-ocamlfuse --> https://github.com/astrada/google-drive-ocamlfuse
-    
-   COMO INSTALAR.                    
-========================================================
-    Procedimento de instalação em /doc/Installation.md.
-    leia com atenção.
+  
