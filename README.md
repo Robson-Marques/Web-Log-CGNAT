@@ -1,4 +1,4 @@
-# LOG CGNAT
+# WEB LOG CGNAT
 Sistema Web para exibição de log cgnat com amarzenamento direto no google drive
 =======================================================
 Este web sistema tem como objetivo a realização de consulta no log cgnat, através do sylog-ng.
