@@ -367,13 +367,13 @@ Por segurança remova a assinatura do apache e reinicie o apache2 para que tenha
 	# sed -i 's/ServerSignature On/ServerSignature Off/' /etc/apache2/conf-available/security.conf
 	# systemctl restart apache2
 
-instalação MariaDB
+Instalação MariaDB
 ===========================================================================
 Instalando os pacotes com:
 
 	# apt install mariadb-server mariadb-client 
 
-instalação PHP 7.4
+Instalação PHP 7.4
 ===========================================================================
 Instalando os pacotes com:
 
@@ -387,7 +387,7 @@ Consulte a informações de versão:
 
 	# php --version
 
-Instalar nossa Interface Web
+Instalação Interface Web
 =======================================================================
 Entre na pasta do site:
 
@@ -417,8 +417,8 @@ Delete o arquivo compactado:
 
 	# rm cgnat.tar.gz
  
-============================Configurando banco de Dados======================================
-
+Configurando banco de Dados
+==================================================================
 Acesse o banco de dados conforme a seguir por padrão o maria db vem sem senha é só clicar em enter quando pedir senha:
 
 	# mariadb -u root -p
