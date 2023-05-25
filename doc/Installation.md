@@ -153,7 +153,7 @@ Para configurarmos essa estrutura vamos alterar primeiramente o arquivo:
 E alterar o options para esse abaixo:
 
 	options { chain_hostnames(off); flush_lines(0); use_dns(no); use_fqdn(no); keep_hostname (yes);
-         	 dns_cache(no); owner("root"); group("adm"); perm(0640); dir_perm(0700); create_dirs (yes);
+         	 dns_cache(no); owner("root"); group("root"); perm(0644); dir_perm(0700); create_dirs (yes);
           	stats_freq(0); bad_hostname("^gconfd$"); keep-timestamp(off);
 	};
 
